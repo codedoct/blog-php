@@ -1,1 +1,1 @@
-haha gag ada notif
+Tutorial ini dihentikan
