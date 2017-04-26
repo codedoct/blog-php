@@ -11,7 +11,7 @@
 			$sql="DELETE FROM crud WHERE id = '$_id'";
 	    	mysql_query($sql,$db);
 		}
-    	header("Location: http://localhost/blog/webcoboy/");
+    	header("Location: http://localhost/BLOG/blog-php_5_6");
 		die();
 	}
 

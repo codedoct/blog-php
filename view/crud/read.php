@@ -22,7 +22,7 @@
 		$sql="SELECT * FROM crud";
 		$hsl=mysql_query($sql,$db);
 		$no=0;
-		while(list($name,$email,$address,$created_at,$updated_at,$id)=mysql_fetch_array($hsl)){
+		while(list($id,$name,$email,$address,$created_at,$updated_at)=mysql_fetch_array($hsl)){
 			$no++;
 			?>
 	  		<tr>
